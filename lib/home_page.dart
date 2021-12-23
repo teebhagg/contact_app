@@ -71,7 +71,6 @@ class CallLogs extends StatelessWidget {
                 style: TextStyle(fontSize: 25, fontWeight: FontWeight.w600),
               ),
             ),
-
             SingleChildScrollView(
               child: Column(
                 children: List.generate(3, (index) {
@@ -88,23 +87,8 @@ class CallLogs extends StatelessWidget {
                 }),
               ),
             ),
-
-            // const Recents(
-            //     img: 'assets/img/abc1.jpg',
-            //     name: 'Annie Marrie',
-            //     number: '+233 67 872 9090'),
-            // const Recents(
-            //     img: 'assets/img/Podcast.jpg',
-            //     name: 'Tony Bonz',
-            //     number: '+233 56 766 9800'),
-            // const Recents(
-            //     img: 'assets/img/podcast1.jpg',
-            //     name: ' Mortz',
-            //     number: '+233 87 665 9088'),
-
             const Text('Contacts',
                 style: TextStyle(fontSize: 25, fontWeight: FontWeight.w600)),
-
             Text(
               'A',
               style: TextStyle(
@@ -112,7 +96,6 @@ class CallLogs extends StatelessWidget {
               ),
               textAlign: TextAlign.end,
             ),
-
             SingleChildScrollView(
               child: Column(
                 children: List.generate(3, (index) {
@@ -129,16 +112,6 @@ class CallLogs extends StatelessWidget {
                 }),
               ),
             ),
-
-            // Recents(
-            //     img: 'assets/img/podcast4.jpeg',
-            //     name: 'Adam',
-            //     number: '+233 90 999 5052'),
-            // Recents(
-            //     img: 'assets/img/podcast5.png',
-            //     name: 'Ado',
-            //     number: '+233 32 443 1213'),
-
             Text(
               'B',
               style: TextStyle(
@@ -146,37 +119,6 @@ class CallLogs extends StatelessWidget {
               ),
               textAlign: TextAlign.end,
             ),
-
-            // Recents(
-            //     img: 'assets/img/end.jpg',
-            //     name: 'Benedicta',
-            //     number: '+233 73 327 1938'),
-            // Recents(
-            //     img: 'assets/img/p2.jpg',
-            //     name: 'Brando',
-            //     number: '+233 54 545 8809'),
-            // Recents(
-            //     img: 'assets/img/no time.jpg',
-            //     name: 'Bobby',
-            //     number: '+233 79 356 8881'),
-            // Library(name, image, number)
-
-            // GestureDetector(
-            //   onTap: () {},
-            //   child: ListView.builder(
-            //       itemCount: contacts.length,
-            //       itemBuilder: (context, index) {
-            //         return ListTile(
-            //           leading: const CircleAvatar(
-            //             backgroundImage: AssetImage('imge'),
-            //           ),
-            //           title: Text(contacts[index]['name']),
-            //           subtitle: Text(contacts[index]['number']),
-            //           trailing: const Icon(CupertinoIcons.heart),
-            //         );
-            //       }),
-            // )
-
             SingleChildScrollView(
               child: Column(
                 children: List.generate(4, (index) {
@@ -196,12 +138,6 @@ class CallLogs extends StatelessWidget {
           ],
         ),
       ),
-      // Column(
-      //         crossAxisAlignment: CrossAxisAlignment.end,
-      //         children: [
-
-      //         ],
-      //       )
     );
   }
 }

@@ -4,6 +4,7 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:cupertino_icons/cupertino_icons.dart';
 import 'package:contactz/contactss.dart';
+import 'package:simple_icons/simple_icons.dart';
 
 class Conts extends StatefulWidget {
   final Library library;
@@ -119,7 +120,8 @@ class _ContsState extends State<Conts> {
             trailing: IconButton(
                 onPressed: () {},
                 icon: Icon(
-                  Icons.mail,
+                  SimpleIcons.telegram,
+                  color: Colors.blue,
                   size: 17,
                 )),
           ),
@@ -132,7 +134,8 @@ class _ContsState extends State<Conts> {
             trailing: IconButton(
                 onPressed: () {},
                 icon: Icon(
-                  Icons.mail,
+                  SimpleIcons.whatsapp,
+                  color: Colors.green,
                   size: 17,
                 )),
           ),
